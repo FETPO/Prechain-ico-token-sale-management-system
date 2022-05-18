@@ -1,0 +1,155 @@
+/*--------------------------------------------------------------
+  # forms Login | Input  Sections
+  --------------------------------------------------------------*/
+
+.auth {
+  padding: 60px 0;
+  overflow: hidden;
+ 
+}
+
+.h-100 {
+  height: 100% !important;
+  background: #0e111e !important;;
+}
+
+.auth__logo {
+  max-height: 70px;
+}
+
+.auth .card {
+  max-width: 450px;
+  display: block;
+  margin: 0 30px;
+  padding: 20px 30px;
+  border-color: #edf2f9;
+  -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+  box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+}
+
+@media (max-width: 600px) {
+  .auth .card {
+    margin: 0 10px;
+  }
+}
+
+.auth .card h1 {
+  font-size: 26px;
+  line-height: 29px;
+  font-weight: 600;
+  color: #0e111e;
+}
+
+.auth .card h2 {
+  font-size: 17px;
+  line-height: 29px;
+  font-weight: 500;
+  color: #0e111e;
+  text-transform: capitalize;
+}
+
+.auth .card__form {
+  width: 100%;
+  background: transparent;
+}
+
+.auth .card__form ::-webkit-input-placeholder {
+  color: #999;
+}
+
+.auth .card__form .form-control {
+  display: block;
+  width: 100%;
+  padding: 22px 22px;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #0e111e;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-radius: 4px;
+  -webkit-transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.auth .card__form .form_control {
+  display: block;
+  width: 100%;
+  padding: 8px 22px;
+  font-size: 0.9375rem;
+  border: 1px solid #999;
+}
+
+.auth .card__form input,
+.auth .card__form select {
+  border-radius: 4px;
+  box-shadow: none;
+  font-size: 12px;
+  outline: none;
+  padding: 20px 12px;
+  transition: border-color 0.15s ease-in-out;
+}
+
+/* .auth .card__form select option{
+  border: 1px solid #999;
+
+} */
+
+.auth .card__form input:focus,
+.auth .card__form select:focus {
+  border: 1px solid #000;
+}
+
+.auth .card__form label {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: left !important;
+}
+
+.auth .card__form button {
+  text-transform: capitalize;
+  font-size: 15px;
+  background: #009344 !important;
+  font-weight: 500;
+  padding: 13px 22px !important;
+  width: 100%;
+  transition: all 0.3s;
+  border-radius: 6px;
+  margin: 0;
+  border-bottom-right-radius: 0;
+  border: none !important;
+}
+.auth .card__form a.google {
+  text-transform: capitalize;
+  font-size: 15px;
+  background: #dc3545 !important;
+  font-weight: 500;
+  padding: 13px 22px !important;
+  width: 100%;
+  transition: all 0.3s;
+  border-radius: 6px;
+  margin: 0;
+  border-bottom-right-radius: 0;
+  border: none !important;
+}
+
+.auth .card__form button:focus {
+  border: none !important;
+}
+
+.auth .card__form small {
+  color: rgb(71, 71, 71);
+  display: block;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.auth .card__form small a {
+  color: #0e111e;
+}
